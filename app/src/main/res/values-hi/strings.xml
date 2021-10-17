@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मनोभाव ऐप</string>
+    <string name="intro" >ट्वीट दिखा रहा है</string>
+    <string name="hint" >शब्द को खोजें</string>
+    <string name="twitterhandle" >नए अपडेट के लिए शेड्यूल किया जाने वाला ट्विटर हैंडल डालें</string>
+    <string name="search_label" >खोज</string>
+    <string name="placeholder" >---</string>
+    <string name="Open" >खुला हुआ</string>
+    <string name="Close" >बंद करे</string>
+    <string name="action_settings" >समायोजन</string>
+    <string name="time_picker_example" >टाइम पिकर उदाहरण</string>
+    <string name="time_pick" >समय चुनें और सेव बटन दबाएँ</string>
+    <string name="time_save" >सेव</string>
+    <string name="time_selected" ></string>
+    <string name="time_current" >समय है:</string>
+    <string name="title_activity_settings" >समायोजन</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header" >संदेश</string>
+    <string name="sync_header" >सिंक्रनाइज़</string>
+
+    <!-- Messages Preferences -->
+    <string name="personal_title" >व्यक्तिगत जानकारी</string>
+    <string name="translation_title" >डिफ़ॉल्ट अनुवाद क्रिया</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" >ईमेल को समय-समय पर सिंक्रनाइज़ करें</string>
+    <string name="attachment_title" >आने वाले अनुलग्नकों को डाउनलोड करें</string>
+    <string name="attachment_summary_on" >आने वाले ईमेल के लिए स्वचालित रूप से संलग्नक डाउनलोड करें
+    </string>
+    <string name="attachment_summary_off" >मैन्युअल रूप से अनुरोध किए जाने पर केवल अनुलग्नक डाउनलोड करें</string>
+    <string name="summary" >सामान्य रूप से आपके, आपके संपर्कों और आपके खाते के बारे में जानकारी प्रबंधित करें</string>
+    <string name="settings">समायोजन</string>
+    <string name="edit_personal_details_below">नीचे व्यक्तिगत विवरण संपादित करें</string>
+    <string name="dark_mode">डार्क मोड</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="edit_profile">प्रोफ़ाइल संपादित करें</string>
+    <string name="change_password">पासवर्ड बदलें</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="regional">क्षेत्रीय</string>
+    <string name="language">भाषा</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="remember_me">मुझे याद रखना</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="register_now">अभी पंजीकरण करें</string>
+    <string name="forgot_password">पासवर्ड रीसेट</string>
+    <string name="search">खोज</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="gender">लिंग:</string>
+    <string name="male">नर</string>
+    <string name="female">महिला</string>
+    <string name="register">रजिस्टर करें</string>
+    <string name="already_have_an_account_login_here">पहले से ही एक खाता है? यहां लॉगिन करें</string>
+    <string name="you_can_schedule_latest_tweets_analysis_here">आप यहां नवीनतम ट्वीट विश्लेषण शेड्यूल कर सकते हैं।</string>
+    <string name="schedule">शेड्यूल</string>
+    <string name="help">मदद</string>
+    <string name="analysis_report1">विश्लेषण रिपोर्ट 1</string>
+    <string name="schedule_tweets">अनुसूची ट्वीट</string>
+    <string name="app_ver_2_0_1">एप्लिकेशन संस्करण 2.0.1</string>
+    <string name="forgettingsomthing">कुछ भूल रहे हैं....</string>
+    <string name="checknotify">अपने अनुसूचित लोगों के नवीनतम ट्वीट विश्लेषण की जाँच करें।</string>
+    <string name="handlefirst">कृपया ट्विटर हैंडल पहले दर्ज करें।</string>
+    <string name="schedulesuccess">यह सफलतापूर्वक शेड्यूल किया गया है।</string>
+    <string name="didntanalyse">ओह, ऐसा लगता है कि आपने अब तक किसी भी ट्वीट का विश्लेषण नहीं किया है।</string>
+    <string name="Goback">कुछ ट्वीट खोजने और रिपोर्ट प्राप्त करने के लिए उनका विश्लेषण करने के लिए वापस जाएं।</string>
+    <string name="hello">"नमस्ते "</string>
+    <string name="welcome">" मनोभाव ऐप में आपका स्वागत है"</string>
+    <string name="quote1">मुसीबत का मूल कारण यह है कि आधुनिक दुनिया में बेवकूफ सुनिश्चित हैं जबकि बुद्धिमान संदेह से भरे हैं।</string>
+    <string name="quote2">एक सच्चा बुद्धिमान व्यक्ति वह है जो मूर्ख व्यक्ति के सामने मूर्ख बनने का दिखावा कर सकता है जो बुद्धिमान होने का दिखावा करता है।</string>
+    <string name="quote3">सही काम तब भी करें जब कोई न देख रहा हो। इसे अखंडता कहा जाता है</string>
+    <string name="quote4">महान दिमाग विचारों पर चर्चा करते हैं। साधारण दिमाग घटनाओं पर चर्चा करते हैं। छोटे दिमाग लोगों की चर्चा करते हैं।</string>
+    <string name="find">भावनाओं को खोजने के लिए अपने फोन को हिलाएं </string>
+    <string name="phone">या स्क्रीन के नीचे जाएं।</string>
+    <string name="fetching">हम आपके लिए ट्वीट ला रहे हैं</string>
+    <string name="tweetsreader">Tweetsreader फ़ोल्डर में फ़ाइल सहेजी गई</string>
+    <string name="FindSentiment">भाव ज्ञात कीजिए</string>
+    <string name="PleaseEnteremailid">कृपया ईमेल आईडी दर्ज करें</string>
+    <string name="PleaseEnterpassword">कृप्या पास्वर्ड भरो</string>
+    <string name="Pleaseconfirmyourpassword">कृपया अपने पासवर्ड की पुष्टि करें</string>
+    <string name="PleaseEnteryourfullname">कृपया आपका पूरा नाम प्रविष्ट कीजिए</string>
+    <string name="PleaseEnterusername">कृपया उपयोगकर्ता नाम दर्ज करें</string>
+    <string name="confirmpassworddidntmatch">पासवर्ड की पुष्टि नहीं हुई</string>
+    <string name="RegistrationSuccessfull">पंजीकरण सफल</string>
+    <string name="Registrationunsuccessfull">पंजीकरण असफल</string>
+    <string name="Analysing">हम आपके लिए ट्वीट का विश्लेषण कर रहे हैं। \n\n कृपया धैर्य रखें</string>
+    <string name="resetpassword">रीसेट पासवर्ड</string>
+    <string name="forgottext">पासवर्ड सत्यापन के लिए कृपया अपना ईमेल दर्ज करें।</string>
+</resources>

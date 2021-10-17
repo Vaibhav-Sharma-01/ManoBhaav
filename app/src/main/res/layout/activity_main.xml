@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/contentBodyColor"
+    android:orientation="vertical"
+    android:padding="0dp"
+    tools:context=".MainActivity"
+    >
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main">
+    <!--<com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:id="@+id/llayout"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textColor="@color/colorBlue"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment"
+        app:layout_constraintVertical_bias="0.066"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginTop="20dp"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorBlue"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <org.florescu.android.rangeseekbar.RangeSeekBar
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rangeseekbar"
+        app:textAboveThumbsColor="@color/seekthumb"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <AutoCompleteTextView
+        android:id="@+id/tweeterhandle1"
+        android:layout_width="240dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter tweeter handle"
+        android:fontFamily="cursive"
+        android:text="\@"
+        android:inputType="text"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.082"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="sans-serif-black"
+        android:onClick="search_now"
+        android:text="@string/search"
+        android:textColor="#ffffffff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText2"
+        app:layout_constraintVertical_bias="0.12"
+        tools:layout_editor_absoluteX="0dp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <AutoCompleteTextView
+            android:id="@+id/tweeterhandle2"
+            android:layout_width="240dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter tweeter handle"
+            android:fontFamily="cursive"
+            android:text="\@"
+            android:inputType="text"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/nav_view"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintVertical_bias="0.082"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded"
+            android:text="@string/search"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#ffffffff"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/nav_view"
+            app:layout_constraintTop_toBottomOf="@+id/textInputEditText2"
+            app:layout_constraintVertical_bias="0.12"
+            tools:layout_editor_absoluteX="0dp"
+            android:onClick="search_now2"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <AutoCompleteTextView
+            android:id="@+id/tweeterhandle3"
+            android:layout_width="240dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter tweeter handle"
+            android:fontFamily="cursive"
+            android:text="\@"
+            android:inputType="text"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/nav_view"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintVertical_bias="0.082"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rounded"
+            android:text="@string/search"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#ffffffff"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/nav_view"
+            app:layout_constraintTop_toBottomOf="@+id/textInputEditText2"
+            app:layout_constraintVertical_bias="0.12"
+            tools:layout_editor_absoluteX="0dp"
+            android:onClick="search_now3"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+</LinearLayout>
+        </ScrollView>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        android:layout_gravity="start"
+        android:id="@+id/nv">
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+    <!--<Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="logout"
+        android:text="Logout"
+        android:textColor="#ffffffff"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/nav_view"
+        app:layout_constraintTop_toBottomOf="@+id/textInputEditText2"
+        app:layout_constraintVertical_bias="0.12"
+        tools:layout_editor_absoluteX="0dp"></Button>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

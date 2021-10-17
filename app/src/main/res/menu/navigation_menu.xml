@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/report1"
+        android:icon="@drawable/ic_assessment_black_24dp"
+        android:title="@string/analysis_report1" />
+    <item
+        android:id="@+id/scheduletweets"
+        android:icon="@drawable/ic_access_alarms_black_24dp"
+        android:title="@string/schedule_tweets" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings" />
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/ic_assessment_black_24dp"
+        android:title="@string/help" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout_24dp"
+        android:title="@string/logout" />
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techguys.tester">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/manoappicon_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/manoappicon_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splashscreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".tweets"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wrapperscheduler"
+            android:parentActivityName=".sentimentanalyser" />
+        <activity
+            android:name=".Report1"
+            android:parentActivityName=".sentimentanalyser" />
+        <activity
+            android:name=".sentimentanalyser"
+            android:parentActivityName=".tweets" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".tweets"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".sign_up"
+            android:parentActivityName=".login" />
+        <activity android:name=".login" />
+
+        <receiver android:name=".AlarmReceiver"
+            />
+    </application>
+
+</manifest>

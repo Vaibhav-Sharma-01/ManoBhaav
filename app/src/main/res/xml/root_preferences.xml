@@ -1,0 +1,58 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Account settings"
+        app:summary="@string/summary"
+        >
+
+
+        <ListPreference
+            app:key="pensonal information"
+            app:title="@string/personal_title"
+            app:summary="Update your name, username and email addresses."/>
+
+        <ListPreference
+            app:defaultValue="translation"
+            app:key="reply"
+            app:summary="This section is under construction."
+            app:title="@string/translation_title"
+            app:useSimpleSummaryProvider="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Security">
+
+        <EditTextPreference
+            app:key="pass"
+            app:title="Change your password"
+            app:useSimpleSummaryProvider="true"
+            />
+
+        <SwitchPreferenceCompat
+            app:dependency="pass"
+            app:key="attachment"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/attachment_title" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="Privacy">
+
+        <SwitchPreferenceCompat
+            app:key="accounts"
+            app:title="Delete my account"
+
+            />
+
+        <SwitchPreferenceCompat
+            app:dependency="accounts"
+            app:key="attachment"
+            app:summaryOff="@string/attachment_summary_off"
+            app:summaryOn="@string/attachment_summary_on"
+            app:title="@string/attachment_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

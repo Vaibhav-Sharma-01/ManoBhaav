@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">ManoBhaav App</string>
+    <string name="intro">Showing tweets</string>
+    <string name="hint">Search Term</string>
+    <string name="twitterhandle">Enter twitter handle to be scheduled for new updates</string>
+    <string name="search_label">Search</string>
+    <string name="placeholder">---</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="action_settings">Settings</string>
+    <string name="time_picker_example">Time Picker Example</string>
+    <string name="time_pick">Pick the time and press save button</string>
+    <string name="time_save">Save</string>
+    <string name="time_selected"></string>
+    <string name="time_current">The Time is:</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="personal_title">Personal information</string>
+    <string name="translation_title">Default translation action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="summary">Manage information about you, your contacts, and your account in general</string>
+    <string name="settings">Settings</string>
+    <string name="edit_personal_details_below">Edit_personal_details_below</string>
+    <string name="dark_mode">Dark_mode</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="notifications">Notifications</string>
+    <string name="regional">Regional</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="remember_me">remember me</string>
+    <string name="login">Login</string>
+    <string name="register_now">Register Now</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="search">search</string>
+    <string name="full_name">Full Name</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="gender">Gender :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login_here">Already have an account? Login here</string>
+    <string name="you_can_schedule_latest_tweets_analysis_here">you can schedule latest tweets analysis here</string>
+    <string name="schedule">Schedule</string>
+    <string name="help">Help</string>
+    <string name="analysis_report1">Analysis report1</string>
+    <string name="schedule_tweets">Schedule tweets</string>
+    <string name="app_ver_2_0_1">App ver 2.0.1</string>
+    <string name="forgettingsomthing">Forgetting something....</string>
+    <string name="checknotify">check out the latest tweet analysis of your scheduled ones.</string>
+    <string name="handlefirst">please enter twitter handle first</string>
+    <string name="schedulesuccess">Scheduled successfully</string>
+    <string name="didntanalyse">Oops looks like you didn\'t analyse any tweets till now.</string>
+    <string name="Goback">Go back to find some tweets and analyse them to get reports.</string>
+    <string name="hello">"Hello "</string>
+    <string name="welcome">" welcome to ManoBhaav App"</string>
+    <string name="quote1">The fundamental cause of the trouble is that in the modern world the stupid are cocksure while the intelligent are full of doubt.</string>
+    <string name="quote2">The truly intelligent person is one who can pretend to be a fool in front of a fool who pretends to be intelligent</string>
+    <string name="quote3">Do the right thing even when no one is looking. It\'s called integrity</string>
+    <string name="quote4">Great minds discuss ideas Average mind discuss eventsSmall minds discuss people</string>
+    <string name="find">To find sentiments shake your</string>
+    <string name="phone">phone or go to bottom of screen</string>
+    <string name="fetching">Fetching tweets..</string>
+    <string name="tweetsreader">File saved in tweetsreader folder</string>
+    <string name="FindSentiment">Find Sentiment</string>
+    <string name="PleaseEnteremailid">Please Enter email id</string>
+    <string name="PleaseEnterpassword">Please Enter password</string>
+    <string name="Pleaseconfirmyourpassword">Please confirm your password</string>
+    <string name="PleaseEnteryourfullname">Please Enter your fullname</string>
+    <string name="PleaseEnterusername">Please Enter username</string>
+    <string name="confirmpassworddidntmatch">confirm password didn\'t match</string>
+    <string name="RegistrationSuccessfull">Registration Successfull</string>
+    <string name="Registrationunsuccessfull">Registration unsuccessfull</string>
+    <string name="Analysing">Analysing tweets... \n\n Good things take time \n\n please be patient</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="text_item" translatable="false">Message</string>
+    <string name="bt_sent" translatable="false">Sent</string>
+    <string name="resetpassword">Reset Password</string>
+    <string name="forgottext">Enter your email...for password verification</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBlue">#0245FF</color>
+    <color name="background">#EEEDEF</color>
+    <color name="colorPrimary">#11CFC5</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="seekthumb">#000</color>
+    <color name="alltext">#0245FF</color>
+
+    <!--colors for light mode-->
+    <color name="contentBodyColor">#FFFFFF</color>
+    <color name="tweetBodyColor">#E8E8E8</color>
+    <color name="contentTextColor">#020000</color>
+    <color name="imageBorderColor">#E01E7A</color>
+    <color name="miniTitle">#2A2E43</color>
+    <color name="background_app">#edece2</color>
+
+    <color name="white">#ffffff</color>
+    <color name="fab_color_1">#ff5252</color>
+    <color name="fab_color_1_muted">#ff8080</color>
+    <color name="fab_color_2">#9c27b0</color>
+    <color name="fab_color_2_muted">#a56ab0</color>
+
+    <color name="button_color_text">#9E9E9E</color>
+    <color name="color_text_info">#d5d1ac</color>
+
+    <color name="action_bar_01">#2196F3</color>
+    <color name="primary_01">#1565C0</color>
+
+    <color name="orange">#FFC107</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#03A9F4</color>
+</resources>
